@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Abba Gebre Hanna and the Traveler's Meal",
+    "language": "am",
+    "subtitle_language": "en",
+    "fps": 24,
+    "aspect_ratios": ["9:16", "16:9"],
+    "end_card": {
+      "text": "Made with AI — a heritage short",
+      "duration": 2.5
+    },
+    "consent": {
+      "required": false,
+      "recorded": false,
+      "person": "Traditional Ethiopian folktale (Abba Gebre Hanna)",
+      "scope": "Fictionalized traditional character; no real living person depicted",
+      "date": ""
+    }
+  },
+  "style_block": "Warm, grainy 35mm film photograph, hand-painted Ethiopian storybook texture, golden-hour highland light, earthy palette of ochre, terracotta, olive green and cream, gentle contrast, soft dust in the air, intimate and timeless.",
+  "character": {
+    "description": "Abba Gebre Hanna, a clever, expressive elderly Ethiopian scholar in his 60s, warm brown skin, short grey beard, kind mischievous eyes, wearing a traditional white cotton netela and shamma robe with a white turban, carrying a wooden walking staff.",
+    "reference_prompt": "Portrait of Abba Gebre Hanna, a clever elderly Ethiopian scholar in his 60s, warm brown skin, short grey beard, kind mischievous eyes, traditional white cotton shamma robe and white turban, holding a wooden walking staff, standing on a sunlit Ethiopian highland path, warm 35mm film grain, hand-painted texture, golden-hour light.",
+    "seed": 2041
+  },
+  "narration": {
+    "voice": "Charon",
+    "style": "warm, expressive, unhurried, like an elder telling a witty folktale by the fire",
+    "model": "gemini-3.8-flash-tts"
+  },
+  "music": {
+    "caption": "Warm Ethiopian highland folktale instrumental, light krar plucks, gentle washint wooden flute, soft low bass pulse, playful yet unhurried, dusty and intimate, no vocals, no strong lead melody.",
+    "bpm": 76,
+    "keyscale": "G minor",
+    "candidates": 3,
+    "seed": 77
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "duration": 7.5,
+      "keyframe_prompt": "Extreme wide shot: a winding dusty highland road in Ethiopia at mid-morning, acacia and eucalyptus trees, distant terraced hills, Abba Gebre Hanna walking alone with his wooden staff, centred composition, generous sky for titles.",
+      "motion_prompt": "The camera slowly pushes in as Abba Gebre Hanna walks steadily along the dusty road. Leaves sway gently in the breeze.",
+      "narration": "አንድ ቀን አባ ገብረ ሃና በመንገድ ላይ ብቻቸውን እየሄዱ ነበር።",
+      "subtitle": "One day, Abba Gebre Hanna was walking alone along the road.",
+      "reason": "Establish the protagonist, the highland road, and the classic folktale opening.",
+      "music_cue": "Light krar plucks enter softly over highland breeze.",
+      "seed": 201
+    },
+    {
+      "id": "s02",
+      "duration": 7.0,
+      "keyframe_prompt": "Medium wide shot: another traveler approaching from the opposite direction along the dirt road, carrying a neatly wrapped woven food basket tied in white cloth, warm morning sun, Abba Gebre Hanna noticing him in the foreground.",
+      "motion_prompt": "The traveler walks closer carrying the wrapped basket. Abba Gebre Hanna slows his step and turns toward him.",
+      "narration": "እየሄዱ ሳለም አንድ ምግብ የያዘ ሰው በመንገድ ላይ አገኙ።",
+      "subtitle": "As he walked, he met a man carrying food on the road.",
+      "reason": "Introduce the second character and the wrapped meal that drives the story.",
+      "music_cue": "Gentle wooden flute enters as the traveler appears.",
+      "seed": 202
+    },
+    {
+      "id": "s03",
+      "duration": 7.0,
+      "keyframe_prompt": "Medium close-up: Abba Gebre Hanna leaning slightly on his wooden staff, raising one hand in polite greeting, curious and clever expression on his face, warm side-light, soft dust in the air, shallow depth of field.",
+      "motion_prompt": "Abba Gebre Hanna nods politely and tilts his head with a knowing smile. Camera holds steady at eye level.",
+      "narration": "አበገብረ ሃናም ሰላምታ ሰጥተው፣ «ወዴት ትሄዳለህ?» ሲሉ ጠየቁት።",
+      "subtitle": "Abba Gebre Hanna greeted him and asked, \"Where are you going?\"",
+      "reason": "Show Abba Gebre Hanna's wit and initiate the conversation.",
+      "music_cue": "Krar plays a brief inquisitive motif.",
+      "seed": 203
+    },
+    {
+      "id": "s04",
+      "duration": 7.5,
+      "keyframe_prompt": "Medium shot: the traveler holding the cloth-wrapped food basket carefully with both hands, speaking earnestly, pointing down the road toward distant farmland, warm sunlight, traditional cotton tunic, natural candid expression.",
+      "motion_prompt": "The traveler gestures toward the distant fields while holding the basket. Gentle, natural movement.",
+      "narration": "ሰውየውም፣ «ለቤተሰቦቼ በራይ እያበራዩ ምግብ ላደርስ ነው» ሲል መለሰላቸው።",
+      "subtitle": "The man replied, \"I am taking food to my family while they thresh the grain.\"",
+      "reason": "Reveal the traveler's errand and the destination of the meal.",
+      "music_cue": "Soft underscore continues beneath the dialogue.",
+      "seed": 204
+    },
+    {
+      "id": "s05",
+      "duration": 6.0,
+      "keyframe_prompt": "Close-up: the woven food basket wrapped in clean white cotton cloth, steam faintly suggested in warm golden light, the traveler's hands resting on the knot, shallow depth of field, rich earthy tones.",
+      "motion_prompt": "The camera slowly pushes in on the wrapped basket as sunlight catches the woven texture.",
+      "narration": "የተሸፈነው የምግብ ቅርጫት መዓዛው ከሩቅ ያውድ ነበር።",
+      "subtitle": "The aroma of the wrapped meal drifted through the warm air.",
+      "reason": "Heighten the temptation of the meal before Abba Gebre Hanna's trick.",
+      "music_cue": "Warm low string swell hints at mischief.",
+      "seed": 205
+    },
+    {
+      "id": "s06",
+      "duration": 7.5,
+      "keyframe_prompt": "Medium close-up: Abba Gebre Hanna looking earnest and trustworthy, placing a gentle hand on his chest as if sent on an errand, the traveler listening beside him on the dusty path, golden-hour side light.",
+      "motion_prompt": "Abba Gebre Hanna gestures calmly toward himself with a composed, convincing nod. Camera holds steady.",
+      "narration": "አበገብረ ሃናም ፈገግ ብለው፣ «እኔም እኮ ተልኬ ነው የመጣሁት፣ ልውሰድላቸው» አሉት።",
+      "subtitle": "\"I was sent for it myself,\" he said calmly. \"Let me take it to them.\"",
+      "reason": "Deliver the central comic turn of the story.",
+      "music_cue": "Playful krar pluck punctuates the line.",
+      "seed": 206
+    },
+    {
+      "id": "s07",
+      "duration": 7.0,
+      "keyframe_prompt": "Medium shot: the traveler handing the wrapped food basket over to Abba Gebre Hanna, both figures centred in the frame, warm highland sunlight, eucalyptus shadows on the dirt road, respectful exchange.",
+      "motion_prompt": "The basket passes gently from the traveler's hands into Abba Gebre Hanna's arms. Slow, deliberate motion.",
+      "narration": "ሰውየውም አምኖባቸው ምግቡን አስረከባቸውና ወደ መጣበት ተመለሰ።",
+      "subtitle": "Trusting him, the man handed over the food and turned back.",
+      "reason": "Complete the handoff so the audience sees the trick succeed.",
+      "music_cue": "Flute and krar lighten in tempo slightly.",
+      "seed": 207
+    },
+    {
+      "id": "s08",
+      "duration": 7.5,
+      "keyframe_prompt": "Medium wide shot: Abba Gebre Hanna sitting comfortably in the shade of a large acacia tree off the road, the cloth unwrapped beside him, happily eating the meal by himself, peaceful expression, dappled golden sunlight.",
+      "motion_prompt": "Abba Gebre Hanna sits contentedly in the shade, enjoying the meal as dappled leaves sway overhead. Camera pulls back slowly.",
+      "narration": "አበገብረ ሃናም ከመንገዱ ወጣ ብለው በጥላ ሥር ተቀምጠው ምግቡን ለራሳቸው በሉት ይባላል።",
+      "subtitle": "Stepping into the shade, Abba Gebre Hanna ate the entire meal himself.",
+      "reason": "Pay off the folktale's punchline with warmth and humour.",
+      "music_cue": "Playful highland motif resolves warmly.",
+      "seed": 208
+    },
+    {
+      "id": "s09",
+      "duration": 7.0,
+      "keyframe_prompt": "Wide shot from behind at golden hour: Abba Gebre Hanna walking onward down the sunlit highland road with his staff, long warm shadows stretching across the dust, empty basket tucked under his arm, peaceful horizon.",
+      "motion_prompt": "He strolls unhurriedly into the golden evening light as the camera holds wide and still.",
+      "narration": "ከዚያም እንደ ልማዳቸው ቀስ ብለው መንገዳቸውን ቀጠሉ።",
+      "subtitle": "Then, just as calmly as before, he continued on his way.",
+      "reason": "Close the folktale with a classic, unhurried parting image.",
+      "music_cue": "Opening krar motif returns and fades gently to silence.",
+      "seed": 209
+    }
+  ]
+}

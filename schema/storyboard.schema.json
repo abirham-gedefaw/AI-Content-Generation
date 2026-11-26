@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Heritage Short Storyboard",
+  "type": "object",
+  "required": ["meta", "style_block", "narration", "shots"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title", "language", "subtitle_language", "fps", "aspect_ratios", "end_card"],
+      "properties": {
+        "title": { "type": "string" },
+        "language": { "type": "string" },
+        "subtitle_language": { "type": "string" },
+        "fps": { "type": "integer", "minimum": 12, "maximum": 60 },
+        "aspect_ratios": {
+          "type": "array",
+          "items": { "enum": ["9:16", "16:9"] },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "end_card": {
+          "type": "object",
+          "required": ["text"],
+          "properties": {
+            "text": { "type": "string" },
+            "duration": { "type": "number", "minimum": 1, "maximum": 6, "default": 2.5 }
+          }
+        },
+        "consent": {
+          "type": "object",
+          "properties": {
+            "required": { "type": "boolean" },
+            "recorded": { "type": "boolean" },
+            "person": { "type": "string" },
+            "scope": { "type": "string" },
+            "date": { "type": "string" }
+          }
+        }
+      }
+    },
+    "style_block": { "type": "string" },
+    "character": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "reference_prompt": { "type": "string" },
+        "seed": { "type": "integer" }
+      }
+    },
+    "narration": {
+      "type": "object",
+      "required": ["voice", "style"],
+      "properties": {
+        "voice": { "type": "string", "default": "Kore" },
+        "style": { "type": "string", "default": "calm, warm, unhurried, intimate" },
+        "model": { "type": "string", "default": "gemini-3.8-flash-tts" }
+      }
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "caption": { "type": "string" },
+        "bpm": { "type": "integer" },
+        "keyscale": { "type": "string" },
+        "candidates": { "type": "integer", "minimum": 1, "maximum": 4, "default": 3 },
+        "seed": { "type": "integer" }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "required": ["id", "duration", "keyframe_prompt", "motion_prompt", "narration", "reason"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-zA-Z0-9_-]+$" },
+          "duration": { "type": "number", "minimum": 2, "maximum": 15 },
+          "keyframe_prompt": { "type": "string" },
+          "motion_prompt": { "type": "string" },
+          "negative_prompt": { "type": "string" },
+          "narration": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "reason": { "type": "string" },
+          "seed": { "type": "integer" },
+          "music_cue": { "type": "string" }
+        }
+      }
+    }
+  }
+}

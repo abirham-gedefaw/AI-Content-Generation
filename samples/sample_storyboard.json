@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "The Road to Dessie",
+    "language": "am",
+    "subtitle_language": "en",
+    "fps": 24,
+    "aspect_ratios": ["9:16", "16:9"],
+    "end_card": {
+      "text": "Made with AI — a heritage short",
+      "duration": 2.5
+    },
+    "consent": {
+      "required": false,
+      "recorded": false,
+      "person": "Sample story — replace with your family member",
+      "scope": "likeness, voice and story for this short film",
+      "date": ""
+    }
+  },
+  "style_block": "Warm, grainy 35mm film photograph, hand-painted texture, golden-hour light, earthy palette of ochre, deep green and faded blue, gentle contrast, soft dust in the air, Ethiopian highland town, intimate and unhurried.",
+  "character": {
+    "description": "An elderly Ethiopian woman, around 70, warm brown skin, fine wrinkles, kind eyes, wearing a white netela scarf and a faded green dress, carrying a woven palm basket. She moves slowly, with dignity.",
+    "reference_prompt": "Portrait of an elderly Ethiopian grandmother, warm brown skin, fine wrinkles, kind eyes, white netela scarf, faded green dress, holding a woven palm basket, standing in a sunlit courtyard in Dessie, warm 35mm film grain, hand-painted texture, golden-hour light, dignified and calm.",
+    "seed": 1847
+  },
+  "narration": {
+    "voice": "Kore",
+    "style": "calm, warm, unhurried, intimate, like a granddaughter remembering",
+    "model": "gemini-3.8-flash-tts"
+  },
+  "music": {
+    "caption": "Sparse Ethiopian highland instrumental, gentle krar plucks, soft wooden flute, warm low strings, slow unhurried pulse, dusty and intimate, no vocals, no strong lead melody, quietly hopeful.",
+    "bpm": 68,
+    "keyscale": "C minor",
+    "candidates": 3,
+    "seed": 42
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "duration": 7.0,
+      "keyframe_prompt": "Extreme wide shot: a small mud-and-stone house on the edge of Dessie at dawn, blue mist in the valley, one warm lamp glowing in the doorway, a woman’s silhouette in the doorway, generous sky and negative space at the top for titles, centred composition.",
+      "motion_prompt": "The camera slowly pushes in toward the doorway. Mist drifts. The woman adjusts her scarf and steps out. Gentle, slow motion.",
+      "narration": "ወደ ገበያ ከመውጣቷ በፊት፣ አያቴ ሁልጊዜ ፀሐይን ትመለከት ነበር።",
+      "subtitle": "Before she left for the market, my grandmother always looked at the sun.",
+      "reason": "Establish place, time and the quiet ritual before the walk.",
+      "music_cue": "Soft krar plucks enter alone over dawn silence.",
+      "seed": 101
+    },
+    {
+      "id": "s02",
+      "duration": 6.0,
+      "keyframe_prompt": "Close-up: the grandmother’s weathered hands tying a white netela scarf at her neck, warm morning light from the side, shallow depth of field, dust motes in the air, the green dress softly blurred behind.",
+      "motion_prompt": "Her fingers tie the scarf slowly and deliberately. A slight breeze lifts the edge of the cloth. Camera locked off, intimate.",
+      "narration": "እጆቿ ሻርፑን በጥንቃቄ ያስሩ ነበር።",
+      "subtitle": "Her hands would tie the scarf with quiet care.",
+      "reason": "A detail shot that makes the character physical and specific.",
+      "music_cue": "Warm low strings sustain softly under the voice.",
+      "seed": 102
+    },
+    {
+      "id": "s03",
+      "duration": 8.0,
+      "keyframe_prompt": "Wide shot from behind: the grandmother walks along a dirt road out of Dessie, woven basket on her arm, low stone walls and eucalyptus trees, morning light across the highlands, her figure small but centred, generous space around her for cropping to vertical and horizontal.",
+      "motion_prompt": "She walks away from camera at an unhurried pace. The camera follows gently behind her. Eucalyptus leaves move in the wind.",
+      "narration": "ጠዋት ጠዋት በእግሯ ትሄድ ነበር። መንገዱ ረጅም ነበር፣ ግን አያቴ ትዝናናለች።",
+      "subtitle": "Every morning she walked on foot. The road was long, yet she never hurried.",
+      "reason": "The journey begins; the audience feels the distance and her pace.",
+      "music_cue": "Steady unhurried pulse begins.",
+      "seed": 103
+    },
+    {
+      "id": "s04",
+      "duration": 6.5,
+      "keyframe_prompt": "Medium shot: the grandmother stops to greet an old neighbour at a low gate, both women smiling, hands touching, warm morning side-light, dusty road, eucalyptus shadows, intimate and candid, faces soft and natural.",
+      "motion_prompt": "The two women exchange a few words. The neighbour laughs quietly. The camera holds steady, letting the moment breathe.",
+      "narration": "በመንገድ ላይ የምታውቀውን ሰው ስታገኝ፣ ሁልጊዜ ትቆምና ትወያያለች።",
+      "subtitle": "Whenever she met someone she knew on the road, she always stopped to talk.",
+      "reason": "Shows the social fabric of the walk, not just the distance.",
+      "music_cue": "Flute enters gently in the pause.",
+      "seed": 104
+    },
+    {
+      "id": "s05",
+      "duration": 5.5,
+      "keyframe_prompt": "Extreme close-up: the grandmother’s feet in worn leather shoes stepping carefully over uneven stones, the hem of her green dress and the edge of the basket visible, dust rising, warm earth tones, shallow focus.",
+      "motion_prompt": "Her feet step slowly over the stones. Dust rises and settles. The camera stays low and close, moving gently with her.",
+      "narration": "እያንዳንዱን ድንጋይ በጥንቃቄ ትረግጥ ነበር።",
+      "subtitle": "She stepped over every stone with care.",
+      "reason": "A tactile insert that makes the road felt, not just seen.",
+      "music_cue": "Sparse texture, strings only.",
+      "seed": 105
+    },
+    {
+      "id": "s06",
+      "duration": 7.5,
+      "keyframe_prompt": "Wide shot: the entrance of Dessie market, colourful spice stalls and crowds, the grandmother entering from the left, her white scarf catching the light, warm dust and morning sun, slightly chaotic but gentle, her figure readable against the market.",
+      "motion_prompt": "The camera pans slowly with her as she enters the market. Crowd movement is soft and continuous. She does not hurry.",
+      "narration": "ገበያው ሲታይ፣ ዓይኖቿ ይበራሉ።",
+      "subtitle": "When the market came into view, her eyes would light up.",
+      "reason": "The arrival; the market is the destination and a character in itself.",
+      "music_cue": "Krar and flute brighten slightly.",
+      "seed": 106
+    },
+    {
+      "id": "s07",
+      "duration": 7.0,
+      "keyframe_prompt": "Close-up: the grandmother’s hands choosing red peppers and cardamom from a woven basket, the spice seller’s hands nearby, rich reds and browns, warm light, texture of the spices visible, shallow depth of field.",
+      "motion_prompt": "Her fingers lift a handful of peppers and let them fall back. She leans in to smell the cardamom. Camera holds close.",
+      "narration": "በደረቅ በርበሬና በኮረሪማ መካከል፣ ትክክለኛውን ምርጫ ታውቅ ነበር።",
+      "subtitle": "Between the dried red peppers and the cardamom, she always knew the finest choice.",
+      "reason": "Sensory detail; the market is not a backdrop but an experience.",
+      "music_cue": "Underscore stays quiet under narration.",
+      "seed": 107
+    },
+    {
+      "id": "s08",
+      "duration": 6.5,
+      "keyframe_prompt": "Medium close-up: the grandmother pays the spice seller, both smiling, a small cloth bag of spices changing hands, warm market light, faces natural and unposed, shallow depth of field, the crowd softly blurred behind.",
+      "motion_prompt": "She hands over coins and receives the bag. A small nod and a smile. The camera holds at eye level.",
+      "narration": "ከዚያም ትንሽ ቅመም ገዝታ፣ ወደ ቤት ትመለስ ነበር።",
+      "subtitle": "Then, having bought a little spice, she would turn back toward home.",
+      "reason": "The transaction completes the journey and shows her competence and warmth.",
+      "music_cue": "Theme begins to resolve.",
+      "seed": 108
+    },
+    {
+      "id": "s09",
+      "duration": 8.0,
+      "keyframe_prompt": "Wide shot from behind at golden hour: the grandmother walks home along the same dirt road, now carrying the basket with spices, long shadows, warm orange light on the highlands, eucalyptus trees, her figure small and centred, a sense of return and quiet satisfaction.",
+      "motion_prompt": "She walks toward home, slightly slower now. The camera follows at a distance. The light deepens. A gentle fade at the end.",
+      "narration": "ቤት ስትመለስ፣ ፀሐይ ጠርቆ ነበር። ግን አያቴ ትንሽ ትንሽ ትሮጥ ነበር።",
+      "subtitle": "By the time she returned home, the sun was low, yet her step was still light.",
+      "reason": "Closes the journey with the same road, transformed by evening light and what she carries.",
+      "music_cue": "Opening krar motif returns and fades to silence.",
+      "seed": 109
+    }
+  ]
+}

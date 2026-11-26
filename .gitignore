@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+runs.jsonl
+outputs/
+AI-Content-Generation/
